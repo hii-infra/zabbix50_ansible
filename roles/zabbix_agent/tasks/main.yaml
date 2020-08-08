@@ -6,10 +6,8 @@
 
 - name: yum install
   yum:
-    name={{ item }}
-    state=installed
-  with_items:
-    - zabbix-agent
+    name:
+      - zabbix-agent
 
 - name: modify zabbix_agentd config
   template: >
