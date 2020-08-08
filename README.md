@@ -33,7 +33,7 @@ CentOS8環境に、Zabbix-server(rpm)とZabbix-agent(rpm)の機能を自動設�
 zabbix50_ansibleフォルダに移動して、下記コマンドを実施
 
 ```
-ansible-playbook -i zabbix50_ansible/inventory/inventory.ini zabbix50_ansible/site.yml
+ansible-playbook -i zabbix50_ansible/inventory/inventory zabbix50_ansible/site.yml
 ```
 
 完了すると、zabbixサーバ上でzabbixサーバが稼働しています。以下、URLでアクセス可能。
