@@ -1,5 +1,5 @@
 [zabbix_server]
-192.168.117.164
+192.168.xxx.xxx
 
 [zabbix_agent]
-192.168.117.164
+192.168.xxx.xxx
