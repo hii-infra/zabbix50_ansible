@@ -25,6 +25,8 @@ CentOS8環境に、Zabbix-server(rpm)とZabbix-agent(rpm)の機能を自動設�
 # 指定可能な設定内容
 
 * zabbix50_ansible/roles/common/vars/main.yml
+* zabbix50_ansible/inventory/inventory
+
 
 # ansible-playbook実行方法
 
