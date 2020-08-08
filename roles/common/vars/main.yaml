@@ -1,0 +1,3 @@
+zabbix_setup:
+  - zabbix_mariadb_password: "Password"
+    zabbix_server_ip: "IP"

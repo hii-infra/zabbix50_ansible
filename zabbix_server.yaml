@@ -1,0 +1,5 @@
+- name: Zabbix Serverインストール
+  hosts: zabbix_server
+  roles:
+   - common
+   - zabbix_server
